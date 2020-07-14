@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+div {
+  background-color: #f9f7f7;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #3f72af;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #3f72af;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #112d4e;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-top-width: .45rem;
+  width: 5%;
+  border-color: #112d4e;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #112d4e;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: 'Josefin Sans';
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top {
+  position: relative;
+  padding-top: 200px;
+  background-color: #dbe2ef;
+}
+.middle {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+.bottom {
+  position: relative;
+  background-color: #3f72af;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cooking-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-tag {
+  color: #f9f7f7;
+  font-size: .75rem;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
